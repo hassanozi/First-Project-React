@@ -1,0 +1,17 @@
+.Cordinate{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 110px;
+}
+
+.fontSmall{
+    font-size: 10px;
+    font-family: Playfair Display,Georgia,serif;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.fontfam{
+    font-family: Playfair Display,Georgia,serif;
+    font-weight: 100;
+}

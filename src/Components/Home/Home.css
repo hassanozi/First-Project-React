@@ -1,0 +1,33 @@
+
+
+.home1{
+    margin-top: 20% !important;
+}
+
+.home2{
+    margin-left: 100px;
+}
+
+.bold{
+    font-size: 70px !important;
+    font-family: Playfair Display,Georgia,serif;
+}
+
+.background1{
+    background-image: url('../../assets/images/react-1.jpg');
+    background-color: rgb(135, 135, 59);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%,
+}
+
+.background2{
+    background-image: url('../../assets/images/react-2.jpg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 25%,
+}

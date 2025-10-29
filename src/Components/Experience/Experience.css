@@ -1,0 +1,105 @@
+.Cordinate{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 110px;
+}
+
+.fontSmall{
+    font-size: 10px;
+    font-family: Playfair Display,Georgia,serif;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.fontfam{
+    font-family: Playfair Display,Georgia,serif;
+    font-weight: 100;
+}
+
+.timeline-container {
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 110px;
+    display: flex;
+  }
+
+ol.stepper.vertical {
+  --default-b: lightgrey;
+  --default-c: black;
+  --active-b: purple;
+  --active-c: white;
+  --circle: 2.5em; 
+  --b: 4px;
+
+  list-style: none;
+  position: relative;
+  padding-left: 50px;
+  margin: 0;
+  counter-reset: step;
+}
+
+/* vertical line */
+ol.stepper.vertical::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--circle) / 2 - var(--b) / 2);
+  top: 0;
+  bottom: 0;
+  width: var(--b);
+  background: var(--default-b);
+}
+
+/* each step */
+ol.stepper.vertical li {
+  position: relative;
+  margin-bottom: 40px;
+  counter-increment: step;
+}
+
+/* circle */
+ol.stepper.vertical li::before {
+  content: counter(step);
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: var(--circle);
+  height: var(--circle);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--default-b);
+  color: var(--default-c);
+  font-weight: bold;
+  font-family: monospace;
+  border: 3px solid white;
+  z-index: 1;
+}
+
+/* active step */
+ol.stepper.vertical li.active::before,
+ol.stepper.vertical li.completed::before {
+  background: var(--active-b);
+  color: var(--active-c);
+}
+
+/* active line color */
+ol.stepper.vertical li.active ~ li::before {
+  background: var(--default-b);
+  color: var(--default-c);
+}
+
+/* text */
+ol.stepper.vertical li h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+ol.stepper.vertical li p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+  max-width: 400px;
+}

@@ -1,0 +1,58 @@
+.hover-image {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: background-image 0.5s ease;
+}
+
+
+.image1 {
+    background-image: url('./assets/images/work1.jpg');
+}
+
+.image2 {
+    background-image: url('./assets/images/work2.jpg');
+}
+
+.image3 {
+    background-image: url('./assets/images/work3.jpg');
+}
+
+.image4 {
+    background-image: url('./assets/images/work4.jpg');
+}
+
+.image6 {
+    background-image: url('./assets/images/work6.jpg');
+}
+
+.image7 {
+    background-image: url('./assets/images/work7.jpg');
+}
+
+/* ------------------------------------------------------------- */
+.image1:hover {
+    background-image: url('./assets/images/work5.jpg');
+}
+
+.image2:hover {
+    background-image: url('./assets/images/work5.jpg');
+}
+
+.image3:hover {
+    background-image: url('./assets/images/work5.jpg');
+}
+
+.image4:hover {
+    background-image: url('./assets/images/work5.jpg');
+}
+
+.image6:hover {
+    background-image: url('./assets/images/work5.jpg');
+}
+
+.image7:hover {
+    background-image: url('./assets/images/work5.jpg');
+}

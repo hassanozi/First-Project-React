@@ -1,0 +1,35 @@
+.fontSmall{
+    font-size: 10px;
+    font-family: Playfair Display,Georgia,serif;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.fontfam{
+    font-family: Playfair Display,Georgia,serif;
+    font-weight: 100;
+}
+
+.Cordinate{
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 110px;
+}
+
+.Cordinate2{
+    padding-left: 100px;
+    padding-right: 110px;
+}
+
+.backGround{
+    background-color: rgb(248, 247, 247);
+}
+
+.icon-top-left {
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 40px;        
+  height: 40px;       
+  object-fit: contain; 
+}
