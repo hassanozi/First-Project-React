@@ -8,7 +8,7 @@ import mob from '../../assets/images/technology.png'
 export default function About() {
   return (
     <>
-        <div className='container vh-100 backGround'>
+        <div className='container vh-100'>
 
             <div className='Cordinate'>
                 <h6 className='pt-5 ps-5 fontSmall' style={{ letterSpacing: '0.50em' }}>ABOUT US</h6>
